@@ -1,0 +1,319 @@
+.validator-detail-page .validator-moniker {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  gap: 8px; 
+  font-weight: 600;
+  position: relative; 
+}
+
+.validator-detail-page .validator-moniker span:first-child { 
+  line-height: 1.2;
+}
+
+.validator-detail-page .chain-badge {
+  font-size: 0.9rem;
+  padding: 5px 12px;
+  border-radius: 15px;
+  background-color: rgba(var(--accent-rgb), 0.15);
+  color: var(--accent-color);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.addresses-card p {
+  display: flex; 
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 8px;
+}
+
+.addresses-card .address-value {
+  word-break: break-all; 
+  flex-grow: 1;
+}
+
+.copy-button {
+  background-color: var(--accent-color);
+  color: var(--background-color); 
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  font-weight: 500;
+}
+
+.copy-button:hover {
+  background-color: lighten(var(--accent-color), 10%);
+  transform: scale(1.05);
+}
+
+.copy-button:active {
+  transform: scale(0.95);
+}
+
+.copy-feedback {
+  font-size: 0.85em;
+  color: var(--success-color);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgba(var(--success-rgb), 0.1);
+  border-radius: 4px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(var(--primary-text-color-rgb), 0.1);
+  border: 1px solid var(--border-color);
+  border-radius: 50%; 
+  width: 32px; 
+  height: 32px;
+  font-size: 1.5rem; 
+  color: var(--primary-text-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1; 
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  z-index: 10; 
+}
+
+.modal-close-button:hover {
+  background-color: var(--accent-color);
+  color: var(--background-color); 
+  transform: rotate(90deg);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px;
+}
+
+.detail-card {
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 2px 8px var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.detail-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(var(--accent-rgb), 0.1);
+}
+
+.detail-card h3, .detail-card h4 {
+  margin-top: 0;
+  margin-bottom: 8px; 
+  color: var(--primary-text-color);
+  font-size: 1.1rem; 
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color); 
+  padding-bottom: 8px;
+}
+
+.detail-card .card-subtitle {
+  font-size: 0.85rem;
+  color: var(--secondary-text-color);
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.voting-power-card h3 {
+  font-size: 1.6rem; 
+  color: var(--accent-color);
+  border-bottom: none;
+  margin-bottom: 2px;
+}
+.voting-power-card .token-name {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  margin-left: 5px;
+}
+.voting-power-card p:not(.card-subtitle) {
+  font-size: 0.9rem;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.voting-power-gauge {
+  width: 100%;
+  height: 12px;
+  background-color: var(--border-color); 
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.gauge-bar {
+  height: 100%;
+  background-color: var(--accent-color); 
+  border-radius: 6px;
+  transition: width 0.5s ease-in-out;
+}
+
+.addresses-card p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.addresses-card p strong {
+  color: var(--secondary-text-color);
+  margin-right: 8px;
+  font-weight: 500;
+  min-width: 120px; 
+  display: inline-block;
+}
+
+.addresses-card p span {
+  color: var(--primary-text-color);
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 0.9rem;
+  border-bottom: 1px dashed var(--border-color); 
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+}
+
+.info-value {
+  color: var(--primary-text-color);
+  font-weight: 600;
+  text-align: right;
+}
+
+.info-value.status-badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.commission-card .commission-value {
+  font-size: 2rem;
+  color: var(--accent-color);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.uptime-card .uptime-value {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.uptime-visualizer {
+  display: flex;
+  gap: 2px;
+  margin: 10px auto 15px auto; 
+  max-width: 260px;
+  justify-content: center;
+}
+
+.uptime-block {
+  width: 4px; 
+  height: 20px; 
+  border-radius: 1px;
+}
+
+.uptime-block.good {
+  background-color: var(--success-color);
+}
+
+.uptime-block.bad {
+  background-color: var(--error-color);
+  opacity: 0.7;
+}
+
+.uptime-card p small {
+  font-size: 0.8rem;
+  color: var(--secondary-text-color);
+  display: block; 
+  text-align: center;
+  margin-top: 5px;
+}
+
+.error-text-detail {
+  color: var(--error-color);
+  font-size: 0.85rem;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgba(var(--error-rgb), 0.1);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .validator-detail-page .validator-moniker {
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .detail-grid {
+    grid-template-columns: 1fr; 
+  }
+  .addresses-card p strong {
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .detail-card {
+    padding: 15px;
+  }
+  .validator-detail-page .validator-moniker {
+    font-size: 1.3rem;
+  }
+  .voting-power-card h3 {
+    font-size: 1.4rem;
+  }
+  .commission-card .commission-value,
+  .uptime-card .uptime-value {
+    font-size: 1.6rem;
+  }
+}
+
+.modal-backdrop {
+}
+.modal-content.validator-detail-page {
+  max-width: 900px;
+  width: 90%;
+}
+
+.modal-close-button {
+}
