@@ -72,16 +72,16 @@ VALIDATORS = [
         "chain_id": "self-1"
     },
     {
-        "cons_address": "wardenvalcons1t0whuplc8s8tky22mh4rfw5v4cyfq7tegu76na",
-        "valoper_address": "wardenvaloper169s8mrmd2r43uwwpt3prsfsen8mk6932gehva6",
-        "moniker": "Winnode",
+        "cons_address": "wardenvalcons1avr3wlefz9y3nkksyte02uwz0r9veejgvxe9gq",
+        "valoper_address": "warden15pwxz5surmcvnghc9az0ynj8x27lghvj0e6v6v",
+        "moniker": "WHTech",
         "chain": "Warden",
         "chain_id": "chiado_10010-1"
     },
     {
-        "cons_address": "lumeravalcons1770zx23hyzzksjddjddscjnsd6j7wgmwcyhfps",
-        "valoper_address": "lumeravaloper1gapqwfgz45mw2lrvy5nwks9ndfkdzn6pg0u69s",
-        "moniker": "Winnode",
+        "cons_address": "lumeravalcons1wqygedjx7z28kaytrdv2pcgp4cufdjqws4knvv",
+        "valoper_address": "lumera1cuqlf6y6uxqcehewur4zw5vc6p77wdf85svuza",
+        "moniker": "WHTech",
         "chain": "Lumera",
         "chain_id": "lumera-testnet-1"
     },
@@ -121,9 +121,16 @@ VALIDATORS = [
         "chain_id": "diamond-1"
     },
     {
-        "cons_address": "storyvalcons1pxwr4frdtnly75vn73qayu369sjar6vc8r6egx",
-        "valoper_address": "storyvaloper1dkjm2mf6n5ltxe65u96rllddssqatsmefurmw5",
-        "moniker": "Winnode",
+        "cons_address": "storyvalcons1kyrksn278n309h05jhnlxlk9a4gyzjmwyh0jep",
+        "valoper_address": "story17dnr54jlqj0rt7mfmf9zln7ynwhccgadygu3pn",
+        "moniker": "WHTech",
+        "chain": "Story",
+        "chain_id": "aeneid"
+    },
+    {
+        "cons_address": "storyvalcons190frhcrd5f358sg5tumx7alawvncflr83hgl5y",
+        "valoper_address": "story10emfpa3hcqg275xate2e4pxnyuaasn62u0uut0",
+        "moniker": "Technocrypt",
         "chain": "Story",
         "chain_id": "aeneid"
     }
