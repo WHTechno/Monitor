@@ -65,13 +65,6 @@ if "api-lumera.winnode.xyz" in CHAIN_CONFIG["Lumera"]["rpc"]:
 
 VALIDATORS = [
     {
-        "cons_address": "selfvalcons16x875m6tg7ykugwjj0rfry9mpc9k8r8u5k6cn8",
-        "valoper_address": "selfvaloper1dh6fukc87paguve8fg2w4v8rud67xd3q6wtxx7",
-        "moniker": "Winnode",
-        "chain": "Selfchain",
-        "chain_id": "self-1"
-    },
-    {
         "cons_address": "wardenvalcons1avr3wlefz9y3nkksyte02uwz0r9veejgvxe9gq",
         "valoper_address": "warden15pwxz5surmcvnghc9az0ynj8x27lghvj0e6v6v",
         "moniker": "WHTech",
@@ -84,41 +77,6 @@ VALIDATORS = [
         "moniker": "WHTech",
         "chain": "Lumera",
         "chain_id": "lumera-testnet-1"
-    },
-    {
-        "cons_address": "kiivalcons160zcz56leacwpwnss84u8qx5h3wmsklllwk4qy",
-        "valoper_address": "kiivaloper1zlnexclwk2r0fpur45akfyyjwmsf2m34p8l038",
-        "moniker": "Winnode",
-        "chain": "Kiichain",
-        "chain_id": "oro_1336-1"
-    },
-    {
-        "cons_address": "pellvalcons14hwcrz2e2etugyz9w4u8un5srj2qhgxmjr2s0c",
-        "valoper_address": "pellvaloper1epu23sr6my9el9muwrjxnewvwpdct23hxlvgkl",
-        "moniker": "Winnode",
-        "chain": "Pellchain",
-        "chain_id": "ignite_186-1"
-    },
-    {
-        "cons_address": "empevalcons18dz8sjfajuy9jxmk7tlvv5fuwczaxc22vnejp5",
-        "valoper_address": "empevaloper1xvyxsc26kv2ct6x5khs3yggah09lleg6erdw9v",
-        "moniker": "Winnode",
-        "chain": "Emperia",
-        "chain_id": "empe-testnet-2"
-    },
-    {
-        "cons_address": "galavalcons1el3e28x6az5mqfv9u242nfjdzuj8u9a6q4h4yy",
-        "valoper_address": "galavaloper104v3j5wxsppqnftxjs2k37h6qs684ywgf0unq3",
-        "moniker": "Winnode",
-        "chain": "Galactica",
-        "chain_id": "galactica_9302-1"
-    },
-    {
-        "cons_address": "zenvalcons138xthfsun24shhx9vd2dvrpuzee0y9ha8x5pr7",
-        "valoper_address": "zenvaloper1hrq3p9hatskmyju8ga0z0rfkvdw42mrvq5pe5a",
-        "moniker": "Winnode",
-        "chain": "Zenrock",
-        "chain_id": "diamond-1"
     },
     {
         "cons_address": "storyvalcons1kyrksn278n309h05jhnlxlk9a4gyzjmwyh0jep",
